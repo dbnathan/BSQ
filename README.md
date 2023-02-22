@@ -3,7 +3,8 @@
 **Project Name: BSQ - Finding the largest square in a map**
 
 Description:
-This project is a program written in C that reads a map from a file or generates a map based on given parameters, and finds the largest square that can be placed within the map, without overlapping any obstacles. The program uses a dynamic programming approach to solve the problem efficiently, and outputs the solution on the standard output.
+This project is a program written in C that reads a map from a file or generates a map based on given parameters, and finds the largest square that can be placed within the map, without overlapping any obstacles. The code uses a dynamic programming approach to fill the sizes matrix. Specifically, it iterates through each cell in the grid and checks the size of the largest square that can be formed with that cell as the bottom-right corner. It then fills in the corresponding cell in the sizes matrix with this value. The code continues this process for each cell in the grid until the entire sizes matrix is filled.
+
 
 Features:
 
